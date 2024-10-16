@@ -35,8 +35,8 @@
     "**/*.js",
     "**/*.jsx",
     ".next/types/**/*.js",
-    "app/appTwo/Common/components/Dynamiccontent.jsx",
-    "app/appTwo/Common/components/FatchingData.js"
+    "app/Common/components/Dynamiccontent.jsx",
+    "app/Common/components/FatchingData.js"
   ],
   "exclude": [
     "node_modules"

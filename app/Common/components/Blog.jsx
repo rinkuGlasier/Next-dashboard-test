@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import useWow from "./WowAni";
-import { blogPosts } from "@/app/appTwo/Common/lib/data";
+import { blogPosts } from '@/app/Common/lib/data';
 
 export default function BlogPage() {
   useWow();
@@ -41,11 +41,10 @@ export default function BlogPage() {
               <li key={index + 1}>
                 <button
                   onClick={() => handlePageChange(index + 1)}
-                  className={` border border-white rounded-xl w-10 h-10 ${
-                    currentPage === index + 1
-                      ? "text-white bg-blue-700"
-                      : "text-blue-700 bg-white"
-                  } `}
+                  className={` border border-white rounded-xl w-10 h-10 ${currentPage === index + 1
+                    ? "text-white bg-blue-700"
+                    : "text-blue-700 bg-white"
+                    } `}
                 >
                   {" "}
                   {index + 1}{" "}

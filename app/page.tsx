@@ -1,10 +1,10 @@
 "use client";
-import SliderReact from "@/app/appTwo/Common/components/SliderReact";
-import LoginPage from "@/app/appTwo/Common/components/Login";
+import SliderReact from "./Common/components/SliderReact";
+import LoginPage from "./Common/components/Login";
 import Head from "next/head";
-import DynamicContent from "@/app/appTwo/Common/components/Dynamiccontent";
-import ClientSideContent from "@/app/appTwo/Common/components/FatchingData";
-import VideoAdd from "@/app/appTwo/Common/components/Vide";
+import DynamicContent from "./Common/components/Dynamiccontent";
+import ClientSideContent from "./Common/components/FatchingData";
+import VideoAdd from "./Common/components/Vide";
 import Header from "./Common/components/Header";
 import FaqFunction from "./Common/components/Faq";
 import BlogPage from "./Common/components/Blog";

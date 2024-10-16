@@ -1,7 +1,7 @@
 // pages/post/[id].js
 import { useRouter } from 'next/router';
-import { blogPosts } from '@/app/appTwo/Common/lib/data';
 import Image from 'next/image';
+import { blogPosts } from '@/app/Common/lib/data';
 
 const Post = () => {
   const router = useRouter();
