@@ -1,11 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import useWow from "./WowAni";
 import { blogPosts } from '@/app/Common/lib/data';
 
 export default function BlogPage() {
-  useWow();
   const postPerPage = 3;
   const [currentPage, setCurrentPage] = useState(1);
 
